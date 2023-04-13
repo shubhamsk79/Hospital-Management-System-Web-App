@@ -1,0 +1,108 @@
+*
+{
+	margin:0px;
+	padding:0px;	
+}
+body
+{
+	background-image: url(../images/bg.jpg);
+	background-position:fixed;
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+
+.logo img
+{
+	overflow:hidden;
+	height:80px;
+	width:80px;
+	padding-bottom:10px;
+	position:relative;
+	top:-10px;
+	left:20px;
+	
+}
+.title p
+{
+	font-size:30px;
+	color:#fff;
+}
+.login
+{
+	margin:100px auto;
+	margin-bottom:0px;
+	width:55%;
+}
+.header
+{
+
+	background-color:#337AB7;
+	color:#fff;
+        padding: 10px;
+	
+}
+.dmenu
+{
+    background-color: #fff;
+    display:block;
+    padding: 0px;
+    position: relative;
+    top:7px;
+    left:50px;
+    border-radius: 20px;
+}
+
+.row .logintitle
+{
+	background-color:#337AB7;
+	color:white;
+	font-size:20px;
+}
+.footer
+{
+	margin-top:33px;
+	background-color: #000;
+	color:#fff;
+	text-align: center;
+	background-attachment:fixed;
+	
+}
+.footer div{
+
+	padding:0px 0px;
+}
+.footer div div
+{	
+	padding:7px 0px;
+	background-color:#337AB7;
+	color:#fff;
+	font-size:20px;
+	text-align: center;
+}
+/* inner page */
+.menucontent
+{
+	background-image: url(../images/bg3.jpg);
+	height:603px;
+}
+.contentinside
+{
+	margin:0px auto;
+	margin-top:10px;
+}
+.maincontent
+{
+background-image: url(../images/bgcontent.jpg);
+background-size:100%;
+background-scroll:fixed;
+height:603px;
+
+}
+#adddoctor
+{
+	display:none;
+}
+.active
+{
+	background-color:#EEEEEE;
+}
